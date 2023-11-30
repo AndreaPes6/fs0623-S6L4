@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+header img {
+    width: 3rem;
+}
+
+#picMenu {
+    p {
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0rem 0.5rem;
+        margin-top: 0.5rem;
+        span {
+            font-size: 0.8rem;
+            color: gray;
+        }
+    }
+    img {
+        width: 3rem;
+        height: 3rem;
+        margin: 0.5rem;
+    }
+    .iconeDropdown {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin: 0rem 0.5rem 0rem 0rem;       
+    }
+}
+
+#prima {
+    background-color: #855edf;
+    background-image: url(/assets/img/hero-img.png);
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 100%;
+    padding: 1rem;
+    
+    h1 {
+        font-size: 2rem;
+        font-weight: bolder;
+        color: white;
+    }
+    p {
+        color: lightgray;
+    }
+
+    button {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 0.5rem;
+    }
+
+    #firstButton{
+        color: whitesmoke;
+        background-color: $success;
+        width: 7.45rem;
+        border: none;
+    }
+    #secondButton{
+        background-color: whitesmoke;
+        border: none;
+        margin-bottom: 15rem;
+    }
+}
+
+
+#seconda {
+    margin-bottom: 3rem;
+    .sezioncina {
+        display: flex;          
+    }
+
+}
+
+
+
+
